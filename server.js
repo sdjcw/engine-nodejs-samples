@@ -1,5 +1,8 @@
 var express = require('express');
 var morgan = require('morgan');
+var assert = require('assert')
+
+assert.equal('1.3.0', require('accepts/package.json').version)
 
 var app = express();
 
